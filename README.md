@@ -19,7 +19,6 @@ Multifus est un logiciel pour faciliter l'utilisation des multicomptes sur le je
 * Sehyn
 
 ## Credits : 
-* ShareX for the idea
 * EvannG1 for the Website creation (https://github.com/EvannG1)
 * Stackoverflow community (https://stackoverflow.com)
 * UnknownCheats community (https://www.unknowncheats.me/forum/c-/420555-bringing-specific-window-title-name-front.html#post2947383)
