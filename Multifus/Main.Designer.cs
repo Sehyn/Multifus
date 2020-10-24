@@ -139,10 +139,6 @@
             this.ValidCharnamesBtn.UseVisualStyleBackColor = true;
             this.ValidCharnamesBtn.Click += new System.EventHandler(this.ValidCharnamesBtn_Click);
             // 
-            // CharSwap
-            // 
-            this.CharSwap.Tick += new System.EventHandler(this.CharSwap_Tick);
-            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);

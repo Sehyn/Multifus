@@ -53,11 +53,6 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "xxxx";
             // 
-            // Swap
-            // 
-            this.Swap.Enabled = true;
-            this.Swap.Tick += new System.EventHandler(this.Swap_Tick);
-            // 
             // CharSwapper
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
