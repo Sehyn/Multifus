@@ -30,3 +30,4 @@ Multifus est un logiciel pour faciliter l'utilisation des multicomptes sur le je
 * Je suis développeur par passion et non pas par métier je suis débutant.
 * Le code peut être vraiment pas propre, je m'en excuse n'hésitez pas a le corriger.
 * Le code n'est pas fini, beaucoup d'optimisations sont a faire.
+* La communauté est présente sur Discord: discord.gg/SBbuPVm
