@@ -6,7 +6,7 @@ Multifus est un logiciel pour faciliter l'utilisation des multicomptes sur le je
 
 ## A faire :
 
-- [ ] Se souvenir qu'on a accepter les conditions d'utilisation
+- [x] Se souvenir qu'on a accepter les conditions d'utilisation
 - [ ] Se souvenir du nom des personnages
 - [ ] Optimiser le code
 - [ ] Optimiser le timer par un background worker
