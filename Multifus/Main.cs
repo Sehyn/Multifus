@@ -43,6 +43,11 @@ namespace Multifus
             Personnage4TextBox.Enabled = false;
             CharSwap.Enabled = true;
 
+            //addded this part here to set the Window Names as soon as the button gets clicked
+            Parssing.Pers1 = Personnage1TextBox.Text;
+            Parssing.Pers2 = Personnage2TextBox.Text;
+            Parssing.Pers3 = Personnage3TextBox.Text;
+            Parssing.Pers4 = Personnage4TextBox.Text;
 
             this.Hide();
             CharSwapper SwapperForm = new CharSwapper();
@@ -51,12 +56,14 @@ namespace Multifus
 
         }
 
+        /*
+        I'm not sure what this method is for, but I guess that it isn't needed anymore. If you still need it, just implement the
+        keyboard hook here the same way as I did in CharSwapper.cs
+        */
+
+        /*
         private void CharSwap_Tick(object sender, EventArgs e)
         {
-            Parssing.Pers1= Personnage1TextBox.Text;
-            Parssing.Pers2 = Personnage2TextBox.Text;
-            Parssing.Pers3 = Personnage3TextBox.Text;
-            Parssing.Pers4 = Personnage4TextBox.Text;
             bool ACC1 = false;
             bool ACC2 = false;
             bool ACC3 = false;
@@ -109,6 +116,8 @@ namespace Multifus
 
             }
         }
+
+        */
     }
 }
  
