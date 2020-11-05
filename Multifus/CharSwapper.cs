@@ -20,6 +20,8 @@ namespace Multifus
 
         private KeyboardHook _keyboardHook;
 
+        private KeyboardHook _keyboardHook;
+
         public CharSwapper()
         {
             InitializeComponent();
@@ -48,28 +50,33 @@ namespace Multifus
             if (pressedKey == Keys.F2)
             {
                 label2.Text = Parssing.Pers1;
+
                 IntPtr hWnd = Native.FindWindow(null, Parssing.Pers1.ToString() + "- Dofus 2.57.8.11");
 
                 ForegroundWindowBypass.Set(hWnd);
+
             }
             else if(pressedKey == Keys.F3)
             {
                 label2.Text = Parssing.Pers2;
                 IntPtr hWnd = Native.FindWindow(null, Parssing.Pers2.ToString() + "- Dofus 2.57.8.11");
-
                 ForegroundWindowBypass.Set(hWnd);
             }
             else if(pressedKey == Keys.F4)
             {
                 label2.Text = Parssing.Pers3;
+
                 IntPtr hWnd = Native.FindWindow(null, Parssing.Pers3.ToString() + "- Dofus 2.57.8.11");
                 ForegroundWindowBypass.Set(hWnd);
+
             }
             else if(pressedKey == Keys.F5)
             {
                 label2.Text = Parssing.Pers4;
+
                 IntPtr hWnd = Native.FindWindow(null, Parssing.Pers4.ToString() + "- Dofus 2.57.8.11");
                 ForegroundWindowBypass.Set(hWnd);
+
             }
             
         }

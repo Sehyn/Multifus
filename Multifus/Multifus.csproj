@@ -68,7 +68,9 @@
     <Compile Include="CharSwapper.Designer.cs">
       <DependentUpon>CharSwapper.cs</DependentUpon>
     </Compile>
+
     <Compile Include="ForegroundWindowBypass.cs" />
+
     <Compile Include="KeyboardHook\GlobalHook.cs" />
     <Compile Include="KeyboardHook\KeyboardHook.cs" />
     <Compile Include="Main.cs">
