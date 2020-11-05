@@ -20,8 +20,6 @@ namespace Multifus
 
         private KeyboardHook _keyboardHook;
 
-        private KeyboardHook _keyboardHook;
-
         public CharSwapper()
         {
             InitializeComponent();
