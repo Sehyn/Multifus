@@ -16,17 +16,7 @@ namespace Multifus
 {
     public partial class CharSwapper : Form
     {
-        [DllImport("user32.dll", SetLastError = true)]
-        static extern IntPtr FindWindow(string lpClassName, string lpWindowName);
-
-        [DllImport("user32.dll", SetLastError = true)]
-        static extern uint GetWindowThreadProcessId(IntPtr hWnd, out uint lpdwProcessId);
-
-        [DllImport("user32.dll")]
-        static extern uint GetWindowThreadProcessId(IntPtr hWnd, IntPtr ProcessId);
-
-        [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
-        public static extern bool SetForegroundWindow(IntPtr hWnd);
+      
 
         private KeyboardHook _keyboardHook;
 
@@ -58,27 +48,28 @@ namespace Multifus
             if (pressedKey == Keys.F2)
             {
                 label2.Text = Parssing.Pers1;
-                IntPtr hWnd = FindWindow(null, Parssing.Pers1.ToString() + " - Dofus 2.57.6.7");
-                SetForegroundWindow(hWnd);
+                IntPtr hWnd = Native.FindWindow(null, Parssing.Pers1.ToString() + "- Dofus 2.57.8.11");
 
+                ForegroundWindowBypass.Set(hWnd);
             }
             else if(pressedKey == Keys.F3)
             {
                 label2.Text = Parssing.Pers2;
-                IntPtr hWnd = FindWindow(null, Parssing.Pers2.ToString() + " - Dofus 2.57.6.7");
-                SetForegroundWindow(hWnd);
+                IntPtr hWnd = Native.FindWindow(null, Parssing.Pers2.ToString() + "- Dofus 2.57.8.11");
+
+                ForegroundWindowBypass.Set(hWnd);
             }
             else if(pressedKey == Keys.F4)
             {
                 label2.Text = Parssing.Pers3;
-                IntPtr hWnd = FindWindow(null, Parssing.Pers3.ToString() + " - Dofus 2.57.6.7");
-                SetForegroundWindow(hWnd);
+                IntPtr hWnd = Native.FindWindow(null, Parssing.Pers3.ToString() + "- Dofus 2.57.8.11");
+                ForegroundWindowBypass.Set(hWnd);
             }
             else if(pressedKey == Keys.F5)
             {
                 label2.Text = Parssing.Pers4;
-                IntPtr hWnd = FindWindow(null, Parssing.Pers4.ToString() + " - Dofus 2.57.6.7");
-                SetForegroundWindow(hWnd);
+                IntPtr hWnd = Native.FindWindow(null, Parssing.Pers4.ToString() + "- Dofus 2.57.8.11");
+                ForegroundWindowBypass.Set(hWnd);
             }
             
         }
