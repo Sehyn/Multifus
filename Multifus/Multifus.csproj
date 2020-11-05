@@ -68,6 +68,9 @@
     <Compile Include="CharSwapper.Designer.cs">
       <DependentUpon>CharSwapper.cs</DependentUpon>
     </Compile>
+
+    <Compile Include="ForegroundWindowBypass.cs" />
+
     <Compile Include="KeyboardHook\GlobalHook.cs" />
     <Compile Include="KeyboardHook\KeyboardHook.cs" />
     <Compile Include="Main.cs">
@@ -76,6 +79,7 @@
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="Native.cs" />
     <Compile Include="Parssing.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
